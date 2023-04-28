@@ -52,14 +52,16 @@ export default function Calculator() {
     <>
         <h1>{t('calculator')}</h1>
         <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic" className='size="lg"'>
+            <Dropdown.Toggle variant="success" id="dropdown-basic" >
                 Languages
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                <Dropdown.Item href="#">English</Dropdown.Item>
+                <Dropdown.Item href="#">Hindi</Dropdown.Item>
+                <Dropdown.Item href="#">Sanskrit</Dropdown.Item>
+                <Dropdown.Item href="#">chinese</Dropdown.Item>
+                <Dropdown.Item href="#">spanish</Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>
         <div class="container">
@@ -89,5 +91,6 @@ export default function Calculator() {
             </form>
         </div>
     </>
+
   )
 }
